@@ -1,0 +1,46 @@
+{
+  "name": "gulp-officevibe",
+  "version": "0.1.0",
+  "description": "Main Gulp file for Officevibe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "officevibe",
+    "js",
+    "css",
+    "post-css"
+  ],
+  "author": "Francis Thibault",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "cssnano": "^3.2.0",
+    "cssnext": "^1.8.4",
+    "gulp": "^3.9.0",
+    "gulp-postcss": "^6.0.0",
+    "postcss-cssnext": "^2.1.0",
+    "postcss-import": "^7.0.0",
+    "postcss-nested": "^1.0.0",
+    "rucksack-css": "^0.8.2",
+    "stylelint": "^1.1.0",
+    "webpack": "^1.12.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.9.8",
+    "css-mqpacker": "^4.0.0",
+    "gulp": "^3.9.0",
+    "gulp-newer": "^0.5.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-webpack": "^1.5.0",
+    "jquery": "^2.1.4",
+    "postcss-color-function": "^2.0.0",
+    "postcss-easings": "^0.3.0",
+    "postcss-import": "^7.1.0",
+    "postcss-reporter": "^1.2.1",
+    "reporter": "^0.1.0"
+  }
+}

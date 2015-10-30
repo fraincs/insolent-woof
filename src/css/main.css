@@ -1,0 +1,34 @@
+@import 'normalize';
+
+:root {
+--fontSize: 1rem;
+--mainColor: #12345678;
+--highlightColor: hwb(190, 35%, 20%);
+}
+
+/* custom media queries */
+@custom-media --viewport-medium (width <= 50rem);
+
+/* some var() & calc() */
+body {
+  color: var(--mainColor);
+  font-size: var(--fontSize);
+  line-height: calc(var(--fontSize) * 1.5);
+  padding: calc((var(--fontSize) / 2) + 1px);
+  background: hsla(89, 50%, 50%,.3);
+  color: #333;
+  transition: background 2s easeInQuad;
+  @media all and (min-width: 768px) {
+      padding: 250px;
+  }
+  &:hover {
+    color: blue;
+  }
+}
+
+a {
+  color: teal;
+  @media all and (min-width: 768px) {
+      color: red;
+  }
+}
