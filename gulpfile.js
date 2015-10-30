@@ -7,8 +7,8 @@ var webpack = require('gulp-webpack');
 
 var paths = {
     css : {
-        dest: "build",
-        src: "src/main.css"
+        dest: "build/css",
+        src: "src/css/main.css"
     }
 }
 

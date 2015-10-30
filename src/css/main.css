@@ -15,11 +15,11 @@ body {
   font-size: var(--fontSize);
   line-height: calc(var(--fontSize) * 1.5);
   padding: calc((var(--fontSize) / 2) + 1px);
-  background: hsla(89, 50%, 50%,.3);
+  background: hsla(89, 50%, 50%,.8);
   color: #333;
   transition: background 2s easeInQuad;
   @media all and (min-width: 768px) {
-      padding: 250px;
+      padding: 25px;
   }
   &:hover {
     color: blue;

@@ -1,6 +1,6 @@
-body{padding:0;z-index:100}body a{z-index:200;color:red}
+body{padding:22px;z-index:100}body a{z-index:200;color:red}
 
 /* custom media queries */
 
-/* some var() & calc() */body{color:#123456;color:rgba(18, 52, 86, 0.47059);font-size:16px;font-size:1rem;line-height:calc(1rem * 1.5);padding:calc((1rem / 2) + 1px);background:#82BF40;background:rgba(130,191,64,.3);color:#333;-webkit-transition:background 2s cubic-bezier(.55,.085,.68,.53);transition:background 2s cubic-bezier(.55,.085,.68,.53)}body:hover{color:blue}a{color:teal}@media all and (min-width:768px){body{padding:250px}a{color:red}}
+/* some var() & calc() */body{color:#123456;color:rgba(18, 52, 86, 0.47059);font-size:16px;font-size:1rem;line-height:calc(1rem * 1.5);padding:calc((1rem / 2) + 1px);background:#82BF40;background:rgba(130,191,64,.8);color:#333;-webkit-transition:background 2s cubic-bezier(.55,.085,.68,.53);transition:background 2s cubic-bezier(.55,.085,.68,.53)}body:hover{color:blue}a{color:teal}@media all and (min-width:768px){body{padding:25px}a{color:red}}
 /*# sourceMappingURL=main.css.map */
